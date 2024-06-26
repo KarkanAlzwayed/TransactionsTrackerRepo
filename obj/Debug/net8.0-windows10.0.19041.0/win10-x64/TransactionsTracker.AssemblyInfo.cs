@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TransactionsTracker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d41c7b711a9781dbb702c2b5d7ac25ad8a76527f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+3327ac68b800b3e5c928d0797c27ac34d1a36ca5")]
 [assembly: System.Reflection.AssemblyProductAttribute("TransactionsTracker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TransactionsTracker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
