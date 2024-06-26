@@ -20,7 +20,7 @@ namespace TransactionsTracker
         {
             // Connect to local SQLite database (replace path if needed)
             string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "transactions.db");
-            // Create the table if it doesn't exist
+            
             using (SQLiteConnection conn = new SQLiteConnection(dbPath))
             {
                 string createTableQuery = @"CREATE TABLE IF NOT EXISTS Transactions (
