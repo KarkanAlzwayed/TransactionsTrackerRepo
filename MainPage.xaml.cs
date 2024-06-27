@@ -9,16 +9,11 @@ namespace TransactionsTracker
         public MainPage()
         {
             InitializeComponent();
-
-            // Create the table on application start (optional)
-            // Uncomment the following lines to create the table automatically
-            // when the main page loads
-            // CreateTableIfNotExists();
         }
 
         private void CreateTableIfNotExists()
         {
-            // Connect to local SQLite database (replace path if needed)
+            // Connect to local SQLite database
             string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "transactions.db");
             // Create the table if it doesn't exist
             using (SQLiteConnection conn = new SQLiteConnection(dbPath))
